@@ -3,14 +3,8 @@
 int main()
 {
 	ClapTrap claptrap("bom");
-    claptrap.attack("dddddd");
+    claptrap.attack("target1");
     claptrap.takeDamage(5);
     claptrap.beRepaired(3);
-    claptrap.attack("ppppp");
-    claptrap.takeDamage(12);
-    claptrap.beRepaired(10);
-
-	claptrap.attack("zab");
-
     return 0;
 }
